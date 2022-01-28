@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Welcome to Beach Sites</title >
+</head>
+<body>
+    <section class="showcase ">
+        <header>
+        <h2 class="logo">Beach</h2>
+        <div class="toggle "></div>    
+        </header>
+       
+   <video src="explore.mp4 (1).mp4" muted loop autoplay></video>  
+        <div class="text">
+            <h2>Never Stop</h2>
+            <h3>Exploring the Nature</h3>
+            <p>Keep calm and go to the beach.
+                Life takes you down many paths, but the best ones lead to the beach.
+                The beach is calling and I must go.</p>
+                   <a href="#">Explore</a>
+        </div>
+        <ul class="social">
+        <li><a href="#"><img src="fb image.png" alt=""></a></li>
+        <li><a href="#"><img src="tweeter image.png" alt=""></a></li>
+        <li><a href="#"><img src="insta image.png" alt=""></a></li>
+        
+        </ul>
+        </section>
+        <div class="menu">
+       <ul>
+           <li><a href="#">Home</a></li>
+           <li><a href="#">News</a></li>
+           <li><a href="#">Destination</a></li>
+           <li><a href="#">Blog</a></li>
+           <li><a href="#">Contact</a></li>
+       </ul>
+        </div>
+        <script>
+       const menuToggle = document.querySelector('.toggle')
+       const showcase = document.querySelector('.showcase')
+       
+       menuToggle.addEventListener('click', () => {
+           menuToggle.classList.toggle('active')
+           showcase.classList.toggle('active')
+        })
+       
+
+
+
+
+        </script>
+</body>
+</html>
